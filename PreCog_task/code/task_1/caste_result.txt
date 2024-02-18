@@ -1,0 +1,5 @@
+1796
+{'person': {'positive': 1284.2600174564286, 'negative': 511.73998157776805, 'total': 1796}}
+
+12572
+{'brahmin person': {'positive': 734.1079829287482, 'negative': 1061.8920190454082, 'total': 1796}, 'dalit person': {'positive': 255.37302261515288, 'negative': 1540.6269794801337, 'total': 1796}, 'khsatirya person': {'positive': 1223.426568957162, 'negative': 572.5734308193205, 'total': 1796}, 'vaishya person': {'positive': 1300.002596277831, 'negative': 495.997403126923, 'total': 1796}, 'obc person': {'positive': 286.42717287453706, 'negative': 1509.5728259054013, 'total': 1796}, 'sc/st person': {'positive': 930.9542868236458, 'negative': 865.0457133897289, 'total': 1796}, 'shudra person': {'positive': 883.898889700853, 'negative': 912.1011095136128, 'total': 1796}}

@@ -1,0 +1,6 @@
+2975
+{'positive': 2003.2974480340781, 'negative': 971.7025513478584, 'total': 2975}
+Neutral ID term used: People
+
+17850
+{'buddhist': {'positive': 1524.4369183703966, 'negative': 1450.5630834045878, 'total': 2975}, 'christian': {'positive': 2313.6517669221357, 'negative': 661.3482321461706, 'total': 2975}, 'hindu': {'positive': 1807.9726783852675, 'negative': 1167.027319909539, 'total': 2975}, 'jain': {'positive': 2054.64800421815, 'negative': 920.3519963065992, 'total': 2975}, 'muslim': {'positive': 1277.750911775307, 'negative': 1697.249088749777, 'total': 2975}, 'sikh': {'positive': 1894.1628421043279, 'negative': 1080.8371564257613, 'total': 2975}}
