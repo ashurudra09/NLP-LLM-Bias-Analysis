@@ -12,8 +12,8 @@ religion_id_terms = ["buddhist", "christian", "hindu", "jain", "muslim", "sikh"]
 religion_sentiment = {religion: {"positive": 0, "negative": 0, "total": 0} for religion in religion_id_terms}
 
 annotation_list = ["Not sure", "Non_Stereotypical", "Stereotypical"]
-religion_individual_annotation = load_file("../../nlp-fairness-for-india/religion_individual_annotation.tsv")
-template_list = load_file("../../nlp-fairness-for-india/templates.tsv")
+religion_individual_annotation = load_file("../Task-2/nlp-fairness-for-india/religion_individual_annotation.tsv")
+template_list = load_file("../Task-2/nlp-fairness-for-india/templates.tsv")
 religion_attribute = {}
 for item in religion_individual_annotation:
     if item["identity term"] not in religion_attribute.keys():

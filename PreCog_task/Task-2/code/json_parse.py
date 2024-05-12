@@ -12,8 +12,8 @@ import time
 # correct_yes = true output is yes, predicted yes.
 # correct_no = true output is no, predicted no.
 
-for file in os.listdir("../task_2"):
-    with open("../task_2/" + file, "r") as f:
+for file in os.listdir(".."):
+    with open("../Task-2/" + file, "r") as f:
         data = json.load(f)
     time.sleep(1)
     incorrect_no = 0

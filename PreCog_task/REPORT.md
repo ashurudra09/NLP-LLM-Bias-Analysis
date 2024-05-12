@@ -8,7 +8,7 @@
 **Task Chosen:** Task 4 - Analyzing Bias in LLMs
 ## Before we begin:
 ### Directory Structure:
-1) **Code** directory has code used to analyse data, draw graphs etc. It has been split up into task_1 and task_2 corresponding to the first and second parts of the task.
+1) **Code** directory has code used to analyse data, draw graphs etc. It has been split up into task_1 and Task-2 corresponding to the first and second parts of the task.
 2) **Resources** directory has the resources used. This includes the data and the main research papers that were used while accomplishing the task.
 3) **Paper_Review.pdf** directory has the paper that was handed for reviewing, and the the review of the paper (summary, strengths, weaknesses).
 
@@ -39,7 +39,7 @@
 - As is visible from the graph below, Muslim and Buddhist Religions lie on the relatively negative end.
 - Christianity and Jainism on the other hand, lie on the relatively positive end.
 
-![Graph_of_religion.png](code/task_1/graphs/Religion_sentiment_bar.png)
+![Graph_of_religion.png](Task-1/results/graphs/Religion_sentiment_bar.png)
 2) **Bias in terms of Region:**
 - Categories tested: `offensive_terms, socio_economic_status, professions, subjects`
 - Regional biases were observed.
@@ -47,7 +47,7 @@
 - On the positive end, we have Kannadiga, Meghalayan, Rajasthani and Arunachali regions.
 - I was not able to think of any plausible reasons for this swing. It might be a good thing to observe more closely in future.
 
-![Graph_of_region.png](code/task_1/graphs/Region_sentiment_bar.png)
+![Graph_of_region.png](Task-1/results/graphs/Region_sentiment_bar.png)
 
 3) **Bias in terms of Gender:**
 - Categories tested: `professions`
@@ -56,11 +56,11 @@
 - The way the identity terms were chosen were that a set of 50 Male names and 50 female names were selected from the list of names, and then used as identity terms.
 - It is interesting to note that even the neutral terms wrt each gender (He vs She) also showed bias, relatively favouring male.
 
-![Graph_of_gender.png](code/task_1/graphs/Gender_sentiment_bar.png)
+![Graph_of_gender.png](Task-1/results/graphs/Gender_sentiment_bar.png)
 
-![Graph_of_gender_wrt_he.png](code/task_1/graphs/Gender_wrt_he_sentiment_bar.png)
+![Graph_of_gender_wrt_he.png](Task-1/results/graphs/Gender_wrt_he_sentiment_bar.png)
 
-![Graph_of_gender_wrt_she.png](code/task_1/graphs/Gender_wrt_she_sentiment_bar.png)
+![Graph_of_gender_wrt_she.png](Task-1/results/graphs/Gender_wrt_she_sentiment_bar.png)
 
 4) **Bias in terms of Caste:**
 - Categories tested: `offensive_terms, socio_economic_status, adjectives, professions, subjects`
@@ -69,7 +69,7 @@
 - The model seems to be positively biased (slightly) towards vaishyas.
 - It is to be noted that in comparison to neutral term 'person', the bias observed is substantial (up to 0.55 out of a max of 1). I am not sure why this is happening, however this is the largest disparity that has been observed among all axes that were tested.
 
-![Graph_of_caste.png](code/task_1/graphs/Caste_sentiment_bar.png)
+![Graph_of_caste.png](Task-1/results/graphs/Caste_sentiment_bar.png)
 
 ---
 ## Task 2:
@@ -105,13 +105,13 @@
 - overall, therefore, theta and gamma are relatively unbiased, while alpha is relatively biased.
 
 ### Some graphs:
-![alpha_region_plot](graphs/alpha_Region_plot.png)
+![alpha_region_plot](Task-2/graphs/alpha_Region_plot.png)
 
-![alpha_religion_plot](graphs/alpha_Religion_plot.png)
+![alpha_religion_plot](Task-2/graphs/alpha_Religion_plot.png)
 
-![alpha_caste_plot](graphs/alpha_Caste_plot.png)
+![alpha_caste_plot](Task-2/graphs/alpha_Caste_plot.png)
 
-![alpha_gender_plot](graphs/alpha_Gender_plot.png)
+![alpha_gender_plot](Task-2/graphs/alpha_Gender_plot.png)
 ---
 ## Paper Review
 ### Title: Re-contextualizing Fairness in NLP: The Case of India
