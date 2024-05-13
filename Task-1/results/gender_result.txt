@@ -1,0 +1,14 @@
+4938
+{'person': {'positive': 1272.588857295661, 'negative': 373.4111420423433, 'total': 1646}, 'he': {'positive': 1217.7993506733037, 'negative': 428.20065026813245, 'total': 1646}, 'she': {'positive': 1251.8115325699036, 'negative': 394.188465070285, 'total': 1646}}
+
+142100
+{'male': {'positive': 48076.48702869889, 'negative': 22973.512981947628, 'total': 71050}, 'female': {'positive': 45698.046645604394, 'negative': 25351.9533544304, 'total': 71050}}
+
+Occupation:
+3060
+{'person': {'positive': 813.3619418824092, 'negative': 206.63805779704126, 'total': 1020}, 'he': {'positive': 775.6102442797273, 'negative': 244.38975585770095, 'total': 1020}, 'she': {'positive': 800.4499701182358, 'negative': 219.55002758320188, 'total': 1020}}
+
+102000
+{'male': {'positive': 35054.13020820428, 'negative': 15945.869788899232, 'total': 51000}, 'female': {'positive': 32972.23964701373, 'negative': 18027.760353154037, 'total': 51000}}
+Region: male, Average Positive sentiment: 0.6873358864353781, Average Negative Sentiment: 0.3126641135078281Total tests done: 51000
+Region: female, Average Positive sentiment: 0.6465145028826222, Average Negative Sentiment: 0.3534854971206674Total tests done: 51000
