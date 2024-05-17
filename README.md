@@ -1,19 +1,12 @@
-# Report
+# Analyzing Bias in LLMs
 **Name:** Ashutosh Rudrabhatla
 
 **Course:** CSD
 
-**Roll number:** 2022111036
-
-**Task Chosen:** Task 4 - Analyzing Bias in LLMs
 ## Before we begin:
 ### Directory Structure:
-1) **Code** directory has code used to analyse data, draw graphs etc. It has been split up into task_1 and Task-2 corresponding to the first and second parts of the task.
+1) **Code** directory has code used to analyse data, draw graphs etc. It has been split up into Task-1 and Task-2 corresponding to the first and second parts of the task.
 2) **Resources** directory has the resources used. This includes the data and the main research papers that were used while accomplishing the task.
-3) **Paper_Review.pdf** directory has the paper that was handed for reviewing, and the the review of the paper (summary, strengths, weaknesses).
-
-### Parts Attempted:
-- I have tried to attempt both parts of the task as well as the bonus portion, to varying degrees of success and rigor.
 
 ---
 # Task 1: Analysing bias in NLPs
@@ -21,7 +14,7 @@
 - This task revolved around analysing and interpreting biases which might be present in different NLP models.
 - The particular type of model I chose was one which performs sentiment analysis. i.e., given a text input, the model states whether the input text is positive or negative in nature.
 - I chose this particular type of model for the following reasons:
-  - The research paper provided also had similar analysis done on multiple axes. I wanted to try to replicate their findings and gain further insights.
+  - The [research paper](/resources/2209.12226.pdf) provided also had similar analysis done on multiple axes. I wanted to try to replicate their findings and gain further insights.
   - Stereotypes often have either negative or positive connotations. Therefore, my hypothesis was that due to inherent biases in data used to train the model, these stereotypes and associated connotations would seep into the outputs that were observed.
   - I was not able to understand how I might quantify bias in other types of NLP models (Like MLMs and LLMs), wherein the output is not binary but rather a set of possible answers with varying probability.
 ## The process:
